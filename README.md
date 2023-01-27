@@ -26,7 +26,7 @@ The minimum hardware requirements to run this script depend on the size and comp
 
 It's important to note that depending on the number of requests you want to make to the Provider's API and the size of your blockchain, the performance of your script can be affected, in this case, you may consider using a cloud-based solution such as AWS or GCP.
 
-#### User Manual: ####
+### User Manual: ###
 
  1. Install Node.js on your system if it is not already installed.
 
@@ -49,7 +49,7 @@ It's important to note that depending on the number of requests you want to make
 ###### Please note that this is a basic script and is intended for educational and demonstration purposes only. ######
 ###### It  is not suitable for production use and should not be used in any critical applications. ######
 
-#### Conclusion: ####
+### Conclusion: ###
 
 The use of blockchain technology in measurement technology can offer several opportunities for improving the accuracy, security, and traceability of data.
 
