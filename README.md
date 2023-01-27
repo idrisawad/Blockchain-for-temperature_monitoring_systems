@@ -2,6 +2,34 @@
 
 This script is a basic implementation of a blockchain using JavaScript. It uses the SHA256 algorithm to hash the blocks and includes a temperature measurement feature with an alarm system. The script utilizes the axios library to make HTTP requests and fetch temperature data from a Provider's API every 3 hours.
 
+#### Description: ####
+
+This script is a basic implementation of a blockchain system for temperature measurement and alarm systems. The script uses JavaScript as the programming language and it is built on the concepts of decentralized and distributed systems, cryptography, and hashing algorithms.
+
+The script uses a simple data structure to represent each block in the blockchain, which contains the following information:
+
+ - Timestamp: The time at which the block was created
+ - Temperature: The temperature measurement
+ - Hash: A unique digital signature generated using a hashing algorithm (such as SHA-256) that represents the block's data
+ - Previous Hash: A reference to the previous block's hash, which forms the link between the blocks in the blockchain
+
+The script also includes a function for adding new blocks to the blockchain, which involves the following steps:
+
+ - Calculating the hash of the new block by combining the data (timestamp, temperature) and the previous block's hash
+ - Adding the new block to the blockchain
+ - Checking if the new block's hash is valid (i.e., if it meets the required difficulty level)
+
+The script also includes a function for checking the integrity of the blockchain, which involves the following steps:
+
+ - Iterating through all the blocks in the blockchain
+ - Verifying that the hash of each block is valid
+ - Verifying that the previous hash of each block matches the hash of the previous block
+
+Additionally, the script uses a Provider's API to get the temperature measurement from a sensor and it runs an interval every 3 hours to get the new measurement. The script also has a function for triggering an alarm when the temperature exceeds a certain threshold.
+
+To run this script, the user would need to have Node.js and npm (Node Package Manager) installed on their system. The script can be run from the command line by using the command "node blockchain.js".
+
+In summary, this script is a basic implementation of a blockchain system for temperature measurement and alarm systems that uses JavaScript, it uses a Provider's API to get the temperature measurement, it runs an interval to get new measurement every 3 hours and it has a function to trigger an alarm when the temperature exceeds a certain threshold.
 
 #### Prerequisites: ####
 
